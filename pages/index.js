@@ -1,7 +1,9 @@
+import Links from "@/components/links"
+
 export default function Home() {
   return (
     <div>
-      hello
+      <p>hello</p>
     </div>
   )
 }
