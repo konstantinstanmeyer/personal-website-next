@@ -1,9 +1,10 @@
-import Links from "@/components/links"
+import Name from "@/components/Name"
+import styles from "@/styles/Home.module.css"
 
 export default function Home() {
   return (
     <div>
-      <p>hello</p>
+      <Name />
     </div>
   )
 }

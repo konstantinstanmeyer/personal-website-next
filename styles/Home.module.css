@@ -1,0 +1,25 @@
+.name_container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald';
+    font-size: calc(10px + 2vmax);
+    position: absolute;
+    color: #3fb4fc;
+    top: 8%;
+    left: 5%;
+}
+
+.first_name {
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.last_name {
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    margin-left: 2rem;
+}

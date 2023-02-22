@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald';
+    font-size: calc(10px + 2vmax);
+    position: absolute;
+    color: #3fb4fc;
+    top: 8%;
+    left: 5%;
+}
+
+.word {
+    display: flex;
+    font-family: 'Oswald';
+}
+
+.word > p {
+    font-size: calc(30px + 2vmax);
+    margin: 0;
+    padding: 0;
+}

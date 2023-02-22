@@ -2,8 +2,29 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: fixed;
+    bottom: 2rem;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    justify-content: center;
+}
+
+.links {
+    width: calc(30px + 2vmax);
+    margin-left: 20px;
+    margin-right: 20px;
+    filter: invert(48%) sepia(10%) saturate(5307%) hue-rotate(162deg) brightness(110%) contrast(100%);
+}
+
+@media (hover: hover) {
+    .links:hover {
+        transform: scale(1.05);
+    }
 }
 
 .text {
-    color: blue;
+    color: #46C2CB;
+    font-size: 16px;
+    font-weight: bolder;
 }

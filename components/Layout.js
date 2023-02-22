@@ -1,4 +1,4 @@
-import Links from "./links";
+import Links from "./Links";
 
 export default function Layout({ children }){
     return(
